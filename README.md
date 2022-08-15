@@ -13,12 +13,14 @@ NOTE: you must be running node.js version 14 in order to have the best result.
 1. navigate into the `tensorflow_v3` folder.
 2. in this folder there is 4 main files.
 
-A. run_build_api_model_v5.js
+#### Available files to invoke:
+
+###### run_build_api_model_v5.js
 this file calls the all the stock list, and builds the machine learning model
 by calling the run_build_model_v5.js file then upload the file into microsoft azure.
-B. run_build_model_v5.js
+###### run_build_model_v5.js
 this file only builds machine learning model.
-C. run_read_mode_v5.js
+###### run_read_mode_v5.js
 this file is to read the machine learning model and produce a chart from the localhost results
-D. run_read_api_model_v5.js
+###### run_read_api_model_v5.js
 this file is to read the machine learning model and product a chart from the model hosted in the cloud.
